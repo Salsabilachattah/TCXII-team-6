@@ -9,6 +9,7 @@ def evaluate(summary: str, rag_answer: str, keywords: list[str], similarity_scor
     - summary: ticket summary
     - rag_answer: answer retrieved from KB
     - keywords: extracted keywords from ticket
+    - similarity_score: similarity score of the retrieved answer
     """
     
     if "INSUFFICIENT_CONTEXT" in rag_answer:
@@ -18,7 +19,6 @@ def evaluate(summary: str, rag_answer: str, keywords: list[str], similarity_scor
             reason="No KB match"
         )
         
-    
     if similarity_score < 0.6:
         return EvaluationResult(
             decision="ESCALATE",

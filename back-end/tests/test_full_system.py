@@ -14,10 +14,7 @@ from pathlib import Path
 # Add app to path
 sys.path.insert(0, str(Path(__file__).parent / "app"))
 
-from app.agents.analyzer import analyze_ticket
-from app.agents.rag import rag_answer
-from app.agents.evaluator import evaluate
-from app.agents.responder import generate_response
+from app.agents import analyze_ticket, rag_answer,generate_response, evaluate
 
 
 def test_ticket(ticket_id: str, ticket_content: str):

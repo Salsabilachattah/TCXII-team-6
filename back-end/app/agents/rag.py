@@ -1,7 +1,6 @@
 # app/agents/rag.py
 from app.schemas import RagResult
 from app.rag.vectorstore import retrieve
-
 def rag_answer(summary: str) -> RagResult:
     query = summary 
     docs_with_scores = retrieve(query)  

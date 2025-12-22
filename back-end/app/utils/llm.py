@@ -15,9 +15,9 @@ if not api_key:
 
 client = Mistral(api_key=api_key)
 
-def call_llm(system_prompt: str, user_prompt: str, temperature=0.3):
+def call_llm(system_prompt: str, user_prompt: str, temperature:float):
     """
-    Calls Mistral model and returns the output text.
+    Calls Mistral model with a system and user prompt and returns the output text.
     """
     try:
         response = client.chat.complete(
