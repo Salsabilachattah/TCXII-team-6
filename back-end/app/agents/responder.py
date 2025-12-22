@@ -3,14 +3,14 @@ from app.schemas import FinalResponse
 from app.utils.llm import call_llm
 
 SYSTEM = """You rewrite answers with the same language as the ticket's to be polite and professional.
-Do not add new information.Do not return the whole documents given to you.
+Do not add new information.
 """
 
 def generate_response(answer: str, ticket_content: str ) -> FinalResponse:
     prompt = f"""
 Given this customer support ticket :
 {ticket_content}
-Extrcat only the relevant information from the following answer and rewrite it to be a polite and professional response to the customer:
+Extract only the relevant information from the following answer and rewrite it to be a polite and professional response to the customer:
 {answer}
 
 """

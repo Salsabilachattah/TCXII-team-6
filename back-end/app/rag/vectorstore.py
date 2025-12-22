@@ -25,6 +25,7 @@ def get_db():
         )
     return _db
 
-# Retrieve top-k relevant chunks
+
+# Retrieve documents with FAISS scores (distance; lower is better)
 def retrieve(query: str, k=4):
-    return get_db().similarity_search(query, k=k)
+    return get_db().similarity_search_with_score(query, k=k)

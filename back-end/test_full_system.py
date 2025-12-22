@@ -39,7 +39,6 @@ def test_ticket(ticket_id: str, ticket_content: str):
         
         # Step 2: RAG retrieval
         print("\n📚 STEP 2: Searching knowledge base...")
-        # rag_result = rag_answer(analysis.summary, analysis.keywords)
         rag_result = rag_answer(analysis.summary)
 
         print(f"   Answer length: {len(rag_result.answer)} chars")
@@ -53,7 +52,7 @@ def test_ticket(ticket_id: str, ticket_content: str):
         
         # Step 3: Evaluate
         print("\n⚖️  STEP 3: Evaluating confidence...")
-        evaluation = evaluate(analysis.summary, rag_result.answer, analysis.keywords)
+        evaluation = evaluate(analysis.summary, rag_result.answer, analysis.keywords,rag_result.similarity_score)
         print(f"   Decision: {evaluation.decision}")
         print(f"   Confidence: {evaluation.confidence_score}")
         print(f"   Reason: {evaluation.reason}")
