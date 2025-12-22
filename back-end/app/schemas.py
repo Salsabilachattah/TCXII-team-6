@@ -20,5 +20,5 @@ class EvaluationResult(BaseModel):
     reason: str
 
 class FinalResponse(BaseModel):
-    final_ticket_id : str
+    # final_ticket_id : str
     response: str

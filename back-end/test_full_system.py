@@ -39,7 +39,9 @@ def test_ticket(ticket_id: str, ticket_content: str):
         
         # Step 2: RAG retrieval
         print("\n📚 STEP 2: Searching knowledge base...")
-        rag_result = rag_answer(analysis.summary, analysis.keywords)
+        # rag_result = rag_answer(analysis.summary, analysis.keywords)
+        rag_result = rag_answer(analysis.summary)
+
         print(f"   Answer length: {len(rag_result.answer)} chars")
         print(f"   Sources: {rag_result.sources}")
         if rag_result.answer == "INSUFFICIENT_CONTEXT":
@@ -61,7 +63,7 @@ def test_ticket(ticket_id: str, ticket_content: str):
         # Step 4: Generate response (if approved)
         if evaluation.decision == "APPROVE":
             print("\n✅ STEP 4: Generating final response...")
-            final = generate_response(rag_result.answer, ticket_id)
+            final = generate_response(rag_result.answer, ticket_content)
             print(f"   Response: {final.response[:200]}...")
             print(f"   JSON Output:")
             print(json.dumps(final.model_dump(), indent=2))

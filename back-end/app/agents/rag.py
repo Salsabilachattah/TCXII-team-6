@@ -2,8 +2,9 @@
 from app.schemas import RagResult
 from app.rag.vectorstore import retrieve
 
-def rag_answer(summary: str, keywords: list[str]) -> RagResult:
-    query = summary + " " + " ".join(keywords)
+# def rag_answer(summary: str, keywords: list[str]) -> RagResult:
+def rag_answer(summary: str) -> RagResult:
+    query = summary + " " 
     docs = retrieve(query)  # assume each doc has `page_content`, `metadata`, and `similarity` attributes
 
     if not docs:
