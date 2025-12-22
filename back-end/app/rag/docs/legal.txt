@@ -1,0 +1,362 @@
+CONDITIONS GÉNÉRALES RÈGLES D’UTILISATION- Doxa
+Termes d’Utilisation et Politique de Confidentialité
+
+1 TERMESD’UTILISATION(POURTOUS)
+1.1 Acceptation des conditions
+Enutilisant Doxa, vous acceptez ces termes. Si vous n’acceptez pas, n’utilisez pas
+le service. Si vous utilisez Doxa au nom d’une organisation, cette organisation
+accepte aussi les termes.
+1.2 Accèset autorisation
+Vous représentez que :
+• Vousavez auminimum18ans
+• Vousavez autorité légale de conclure ces conditions
+• Si vous êtes équipe, leader a autorisé l’accès
+Doxavousautorise à :
+• Créer un compte avec email valide
+• Créer espaces travail, projets, tâches
+• Inviter collègues (avec leur consentement)
+• Utiliser API si plan l’autorise
+1.3 Compteetsécurité
+Responsabilités :
+• Vousêtes seul responsable mot de passe et compte
+• Nepartagez pas identifiants
+• Notifiez immédiatement Doxa si accès non autorisé (security@doxa.dz)
+• Doxanedemandejamais motdepasse par email
+Identification :
+• Vousmaintenez info compte à jour
+• Email principal = adresse de contact Doxa
+1.4 Contenuutilisateur
+Propriété :
+• Vousconservez tous les droits sur votre contenu (données, fichiers, messages)
+• Doxan’est propriétaire d’aucun contenu utilisateur
+Licence à Doxa :
+• Vousaccordez à Doxa licence non-exclusive, mondiale pour :
+• Héberger et traiter contenu (service la plate-forme)
+• Faire copies backup (sécurité)
+• Afficheràauthorized users (vos équipe membres)
+• Analyser patterns (anonymisé, pour amélioration service)
+1.5 Restrictions strictes
+Vous n’utiliserez PAS Doxa pour :
+1. Contenu illégal ou nuisible :
+• Activités criminelles, malveillance, harcèlement, discrimination
+• Contenus sexuels non-consentis, exploitation mineurs
+• Menaces violence, incitation terrorisme
+2. Données confidentielles non-autorisées :
+• Données clients/patients sans consentement
+• Secrets commerciaux d’autres entreprises
+• Données financières/personnelles non-vôtres
+3. Sécurité réseau :
+• Malwares, virus, trojans
+• Attaques DoS/DDoS
+• Accès non-autorisé systèmes Doxa
+• Reverse-engineering, scraping data
+4. Spam:
+• Invitations massives non-sollicitées
+• Envoi email marketing non-consentis
+• Commentaires/tâches automatisées spam
+5. Abus API/réserves :
+• Utilisation abusive ressources
+• Contournement rate-limits
+• Utilisation pour services concurrents
+1.6 Droits Doxa
+Doxaseréserve le droit :
+• Suspendre accès immédiatement si violation TOS (pas préavis si danger)
+• Supprimer contenu violant conditions
+• Modifier service avec notification raisonnable
+• Refuser service à utilisateurs problématiques
+2 CONFORMITÉLÉGALE&NORMES
+2.1 Loi 25-11 et Loi 18-07 (Protection des Données Personnelles- Al
+gérie)
+Cadre légal principal :
+La Loi n° 25-11 du 24 juillet 2025 modernise la Loi n° 18-07 du 10 juin 2018 re
+lative à la protection des données personnelles en Algérie. Ces lois régissent le
+traitement de toute donnée à caractère personnel.
+Si vous stockez données personnelles :
+Doxa(ouvotreplateforme)estResponsabledeTraitement,vosutilisateurssont
+Propriétaires des Données. Vous décidez quelles données sont traitées, Doxa
+exécute vos instructions. Accord de Traitement des Données (ATD) disponible
+automatiquement à l’inscription. Respect : chiffrement, accès limité, audit trails,
+registre des activités de traitement.
+Obligations clés en vertu de la Loi 25-11 :
+• Désignationd’unDPD(DéléguéàlaProtectiondesDonnées):obligationde
+nommerunprofessionnel qualifié responsable de la conformité.
+• Registredesactivitésdetraitement:documentationdétailléedetouslestrai
+tements (finalités, durée, mesures de sécurité).
+• Carnet d’audit : enregistrement automatisé des accès et modifications aux
+données.
+• Notification d’incidents : délai de 5 jours pour signaler tout incident de sécu
+rité à l’ANPDP.
+• Interdictiondesdécisionsentièrementautomatiséesaffectantlesdroitsdes
+personnes sans intervention humaine.
+Droits des personnes concernées :
+• Droit d’accès : utilisateurs demandent copie de leurs données. Doxa fournit
+export en 14 jours si demandé.
+• Droit de rectification : correction des données inexactes. Modification effec
+tuée sous 10 jours.
+• Droit à l’oubli / suppression : suppression des données à la demande. Sup
+pression espace travail = suppression toutes données dans 30 jours.
+• Droitàlaportabilité:donnéesformatportable(JSON/CSV).Exportdisponible
+sur demande.
+• Droit d’opposition : refuser un traitement donné.
+Violations et responsabilités :
+• Vousêtes responsable de la conformité légale.
+• Violation détectée = déclaration immédiate à l’ANPDP (Autorité Nationale de
+Protection des Données Personnelles).
+• Doxacoopère pleinement avec l’ANPDP pour les enquêtes.
+• Sanctions : amende administrative jusqu’à 500000 DA en cas non-conformité.
+• Récidive ou infraction grave = poursuite pénale (prison et amendes supplé
+mentaires).
+2.2 Secteurs réglementés en Algérie
+Santé (Loi 18-11 de 2018) :
+• Secret médical obligatoire : les données de santé sont hautement sensibles.
+• Dossiermédicalélectronique(DME):chaquepatientdoitavoirunDMEunique
+au niveau national.
+• Consentement explicite requis pour tout accès aux données médicales.
+• Déclarations obligatoires : certaines maladies transmissibles doivent être dé
+clarées aux autorités sanitaires.
+• Accès autorisé uniquement aux professionnels de santé habilités.
+• Non recommandé de stocker données sensibles de santé dans Doxa sans me
+sures spécifiques de sécurité renforcée.
+Finance et Services Bancaires :
+• Cadre réglementaire de la Banque d’Algérie (BA) et de l’ANPDP.
+• Interdiction : stockage des numéros de cartes bancaires ou données de paie
+ment sensibles dans Doxa.
+• Consentementpréalableobligatoirepourcontactcommercial(e-mail,SMS,pros
+pection).
+• Stockage sécurisé obligatoire des informations sensibles.
+• Les services financiers innovants doivent respecter la loi 09-03 (protection du
+consommateur).
+Gouvernement et Secteur Public :
+• Contrats gouvernementaux : respect obligatoire de l’ensemble des exigences
+nationales.
+• RésidencedesdonnéesenAlgérie:exigéedanslaplupartdescaspourdonnées
+sensibles.
+• Transferts transfrontaliers : soumis à l’approbation préalable de l’ANPDP (sauf
+coopération judiciaire/commissions rogatoires).
+• Signature d’Accord de Transfert International si données envoyées hors Algé
+rie.
+2.3 Transferts Internationaux de Données
+Règle générale (Loi 25-11, articles 45 bis 13-14) :
+• Tout transfert de données vers l’étranger doit être pré-approuvé par l’ANPDP.
+• L’ANPDP vérifie que le pays de destination garantit un niveau de protection
+équivalent.
+• Exceptions : coopération judiciaire, commissions rogatoires, cas d’urgence vi
+tale (avec notification immédiate à l’ANPDP).
+• Sous-transferts : interdits sans accord préalable du pays d’origine.
+Si vous utilisez Doxa avec données hébergées hors Algérie :
+• Audit de conformité recommandé auprès de l’ANPDP.
+• Signature d’Accord de Transfert International obligatoire.
+• Documentation : preuves d’approbation ANPDP à conserver.
+2.4 Autorité de Contrôle : ANPDP
+Compétences et Pouvoirs (renforcés par Loi 25-11) :
+• Vérifications sur site et audits des systèmes de traitement.
+• Accès aux données, documents et registres sans restriction.
+• Ordonnance de conformité : fermeture, retrait ou destruction de fichiers non
+conformes.
+• Pôles régionaux : contrôle et accompagnement décentralisés.
+• Avis sur les transferts internationaux (consultation possible avant transfert).
+Contacts et Signalements :
+• Organismeresponsable:AutoritéNationaledeProtectiondesDonnéesPerson
+nelles (ANPDP).
+• Violation de données : déclarer dans les 5 jours (nouveau délai Loi 25-11).
+• Demandesdesutilisateurs : répondre dans les délais légaux.
+• Refusdecoopération=infraction pénale(6 moisà2ans+60000à200000DA).
+3 SÉCURITÉ&PROTECTIONDONNÉES
+3.1 Mesuressécurité Doxa
+Entransit :
+• HTTPS/TLS 1.2+ (chiffrement)
+• Pasdonnées en clair sur réseau
+Aurepos :
+• AES-256 chiffrement base données
+• Clés de chiffrement séparées par client
+• Aucunmaster key centralisé
+Infrastructure :
+• Data centers Algérie (certifications TIER III/IV)
+• ISO27001 certified
+• Monitoring 24/7 sécurité
+• Firewalls, IDS/IPS
+Accès :
+• Authentification 2FA optionnelle (tous)
+• SSOSAML2.0(Enterprise)
+• Rate-limiting API
+• Audit logs de tous accès (Enterprise)
+3.2 Cequevousdevezfaire
+Sécurité côté vous :
+• Utilisez mot de passe fort (min 12 caractères, mixte)
+• Activez 2FA (dans Paramètres → Sécurité)
+• Neréutilisez pas mots de passe d’autres services
+• Signalez activité suspecte : security@doxa.dz
+• Gérez permissions strictement (qui accède à quoi?)
+3.3 Notification d’incidents (Loi 25-11)
+Si Doxa détecte incident de sécurité données :
+1. Investigation immédiate (< 24h)
+2. Notification à l’ANPDP dans 5 jours (obligation légale Loi 25-11)
+3. Notification utilisateurs affectés dans 30 jours
+4. Rapport détaillé : quelles données, quand, actions
+5. Conseil remediation
+6. Support pour notifications ANPDP si requis
+4 POLITIQUEDECONFIDENTIALITÉ
+4.1 Quelles données collectons-nous?
+Données compte :
+• Email, nom, mot de passe (hashed)
+• Photo profil (optionnel)
+• Préférences (langue, timezone, thème)
+Données utilisation :
+• Projets créés, tâches, timestamps
+• Commentaires, mentions
+• Intégrations connectées
+• APIappels (logs)
+• Erreurs/crashs (diagnostique)
+Données paiement (si plan payant) :
+• Numérocarte (jamais stocké Doxa directement, via prestataire certifié)
+• Adresse facturation
+• Historique transactions
+Données analytiques (anonymisé) :
+• Features utilisées
+• Page views (aggregé)
+• Tempssession
+• Crash reports
+4.2 Commentutilisons-nous vos données?
+Pour fournir le service :
+• Hébergement et traitement
+• Support client (accès avec permission)
+• Sécurité et détection fraude
+Pour amélioration :
+• Analytics usage (anonymisé)
+• Identifier bugs, features populaires
+• A/Btesting new features
+Légal :
+• Conformité obligations légales (Loi 25-11, Loi 18-07)
+• Défense poursuites
+• Exécution TOS
+4.3 Avecquipartageons-nous?
+Prestataires certifiés :
+• Prestataire paiement : traitement paiements (certifié sécurité)
+• Datacenters Algérie : hébergement infrastructure (ISO 27001)
+• Service emails : emails transactionnel
+• Monitoring erreurs : error monitoring
+• Analytics : analytics usage
+Tous signent ATD (accord traitement données).
+Jamais partagé :
+• Données nesont pas vendues
+• Paspartagées marketers tiers
+• Paspartage sans consentement
+Autorités algériennes :
+• Données peuvent être divulguées si required by law algérienne
+• Doxacontestera demandes excessives
+• Notification utilisateur si légalement possible
+4.4 Rétention données
+Données actives :
+• Conservées pendant compte actif
+Données archivées :
+• Après suppression compte : 30 jours de grâce (export possible)
+• Puis suppression permanente
+Backups :
+• Conservés 90 jours (disaster recovery)
+• Puis suppression sécurisée
+5 RÈGLESACCEPTABLESUSE
+5.1 Usagelégitime
+OK:
+• Gestion projets internes équipe
+• Collaboration sur livrables
+• Organisation informations
+• Usage personnel (freelancers)
+• Automatisations légitimes
+5.2 Usageproblématique (peut entraîner suspension)
+Abus ressources :
+Extraction data en masse (> 1000 requêtes/min)
+Stockage fichiers volumineux (films, archives)
+Bot automation créant millions tâches
+Reverse-engineering interface
+Contenu illégal/nuisible :
+Matériel copyrighted non-autorisé
+Contenu terrorisme, violence, discrimination
+Données personnelles sans consentement (doxxing)
+Partage identifiants login
+Sécurité :
+Tentative hack accounts autres
+Phishing par email Doxa
+Installation malwares
+Testeur pen-testing sans autorisation
+5.3 Monitoring &enforcement
+Doxamonitore :
+• Usage API anormal
+• Patterns tâches automatisées
+• Contenu rapporté utilisateurs
+• Signaux sécurité
+Actions possibles :
+1. Avertissement (premier cas)
+2. Limitation compte (rate-limits)
+3. Suspension (30 jours avertissement généralement)
+4. Suppression définitive
+5. Signalement autorités légales algériennes (crimes)
+6 RESPONSABILITÉ&INDEMNISATION
+6.1 Disclaimer services
+AS-IS:Doxafourni"telquel"sansgaranties.Incluant:pasgarantieperformance,
+uptime, sécurité parfaite, pas perte données.
+Responsabilité limitée :
+• MaxClaim =50000DAoumontantpayédernier 3 mois (valeur plus petite)
+• Hors: perte données, profits, interruption business (même si avertis)
+6.2 Indemnisation
+Vous indemnisez Doxa contre réclamations tiers pour :
+• Contenu vous avez posté (copyright, diffamation)
+• Violation tiers propriété intellectuelle
+• Utilisation illégale Doxa
+7 MODIFICATIONCONDITIONS&TERMINATION
+7.1 Modifications
+Doxa peut modifier ces conditions.
+• Notification 30 jours email pour changements majeurs
+• Acceptation implicite si continue usage après notification
+• Modifications mineures sans préavis
+7.2 Résiliation
+Par vous :
+• Anytime : Paramètres → "Supprimer espace travail"
+• Données supprimées 30 jours après
+• Pasremboursement si paiement annuel utilisé
+Par Doxa:
+• Violation TOS : immédiatement (danger) ou 7 jours avertissement
+• Non-paiement : 7 jours avertissement
+8 DROITAPPLICABLE&LITIGE
+8.1 Loietjuridiction
+• Loi applicable : Droit algérien (Loi 25-11, Loi 18-07, Code civil algérien, Code
+de commerce)
+• Juridiction : Tribunaux algériens compétents (Tribunal de la wilaya du siège
+social de Doxa)
+• Ordrejuridictionnel : Ordre judiciaire (civil et commercial)
+8.2 Résolution conflits
+1. Contact support : support@doxa.dz (5 jours réponse)
+2. Escalade management : ops@doxa.dz (15 jours résolution)
+3. Médiation amiable (optionnel, recommandé)
+4. Tribunal algérien dernier recours
+8.3 Arbitrage (Enterprise)
+Enterprise peut accepter arbitrage en Algérie lieu neutre au lieu tribunal ordi
+naire.
+9 FAQCONDITIONS
+Q:Puis-je utiliser Doxa pour données patients médicaux?
+A : Seulement Enterprise avec conformité Loi 18-11 (santé) et Loi 25-11 (protec
+tion données). Secret médical obligatoire. ATD signé requis. Pas recommandé
+pourdonnéessensiblessantésansmesuressécuritérenforcéeetvalidationANPDP.
+Q:Quiest responsable si incident sécurité?
+A:Doxaresponsableinfrastructureetnotification ANPDP(5jours).Vousrespon
+sable who has access/what data et conformité utilisation.
+Q:Puis-je vendre mes projets Doxa?
+A: Données vous appartiennent, mais Doxa license non-transferable. Vous pou
+vez exporter données, nouvelle personne crée son propre compte.
+Q:Puis-je utiliser Doxa pour servir mes propres clients?
+A:Sivousêtesagence, créez separate workspace par client (isolement données).
+Pas de white-label sans Enterprise. Conformité ANPDP obligatoire.
+Q:Quels langages mon contenu peut être?
+A: Tous. Doxa supporte toutes langues/alphabets (arabe, français, anglais, tama
+zight, etc.).
+Q:Commentintégrer Doxaàmonsystème?
+A: Utilisez API REST (plan Pro+) ou webhooks. Documentation : api.doxa.dz
+Q:Mesdonnéesrestent-elles en Algérie?
+A : Oui. Toutes données hébergées data centers Algérie (conformité Loi 25-11).
+Transferts internationaux nécessitent approbation ANPDP préalable.
+10 CONTACT&SUPPORTJURIDIQUE
+Questions termes : legal@doxa.dz
+Sécurité/Privacy : security@doxa.dz
+Demandesdroits données (Loi 25-11) : privacy@doxa.dz
+Abus report : abuse@doxa.dz
+Support général : support@doxa.dz
+ANPDP(Autorité Protection Données) : anpdp.dz
