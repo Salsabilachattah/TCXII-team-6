@@ -6,6 +6,16 @@ from app.core.database import Base, engine
 
 # Routers (à créer progressivement)
 from app.api.router import api_router
+from app.models.users import User
+from app.models.tickets import Ticket
+
+app = FastAPI(title="Ticketing Backend")
+
+# ⬇️ CRÉATION DES TABLES AU DÉMARRAGE
+@app.on_event("startup")
+def on_startup():
+    Base.metadata.create_all(bind=engine)
+
 
 
 def create_app() -> FastAPI:

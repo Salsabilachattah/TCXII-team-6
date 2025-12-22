@@ -1,0 +1,12 @@
+# fastapi
+# uvicorn[standard]
+# SQLAlchemy
+# pymysql
+# alembic
+# python-jose
+# PyJWT
+# passlib[bcrypt]
+# pydantic
+# pydantic-settings
+# python-dotenv
+# typing-extensions

@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, T
 from sqlalchemy.orm import relationship
 from datetime import datetime
 
-from core.database import Base
+from app.core.database import Base
 
 
 class Ticket(Base):
@@ -20,12 +20,14 @@ class Ticket(Base):
     agent_id = Column(Integer, ForeignKey("users.id"), nullable=True)
 
     # Statut du ticket
-    escaladed = Column(Boolean, default=False)
+    escalated = Column(Boolean, default=False)
+    escalated_at = Column(DateTime, nullable=True)
     processed = Column(Boolean, default=False)
+    category = Column(String(100), nullable=False)  # ✅ AJOUT ICI
 
     # Réponse
     response = Column(Text, nullable=True)
-    responsed_at = Column(DateTime, nullable=True)
+    responded_at = Column(DateTime, nullable=True)
 
     # Feedback
     feedback_satisfied = Column(Boolean, nullable=True)

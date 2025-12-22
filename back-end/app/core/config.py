@@ -1,17 +1,43 @@
 from pydantic_settings import BaseSettings
+from typing import Optional
 
-
+class Config:
+    env_file = ".env"
+    
 class Settings(BaseSettings):
-    # Application
-    APP_NAME: str = "Ticketing Backend"
-    ENV: str = "development"
+    # =========================
+    # APP
+    # =========================
+    APP_NAME: str
+    ENV: str
 
-    # Database (MySQL)
-    DB_HOST: str = "localhost"
-    DB_PORT: int = 3306
-    DB_USER: str = "root"
-    DB_PASSWORD: str = ""
-    DB_NAME: str = "ticketing_db"
+    # =========================
+    # DATABASE
+    # =========================
+    DB_HOST: str
+    DB_PORT: int
+    DB_USER: str
+    DB_PASSWORD: str
+    DB_NAME: str
+
+    # =========================
+    # SECURITY
+    # =========================
+    SECRET_KEY: str
+    ACCESS_TOKEN_EXPIRE_MINUTES: int
+    REFRESH_TOKEN_EXPIRE_DAYS: int
+
+    # =========================
+    # EMAIL / SMTP (optional)
+    # =========================
+    SMTP_HOST: Optional[str] = None
+    SMTP_PORT: Optional[int] = None
+    SMTP_USER: Optional[str] = None
+    SMTP_PASSWORD: Optional[str] = None
+    EMAIL_FROM: Optional[str] = None
+
+    # Optional app URL for building reset links
+    APP_URL: Optional[str] = None
 
     @property
     def DATABASE_URL(self) -> str:
@@ -23,6 +49,8 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
+        case_sensitive = True
+        extra = "forbid"
 
 
 settings = Settings()

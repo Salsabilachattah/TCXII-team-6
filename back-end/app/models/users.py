@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, Boolean, DateTime, Date
 from sqlalchemy.orm import relationship
 from datetime import datetime
 
-from core.database import Base
+from app.core.database import Base
 
 
 class User(Base):
@@ -14,7 +14,8 @@ class User(Base):
     # Informations personnelles
     first_name = Column(String(100), nullable=False)
     last_name = Column(String(100), nullable=False)
-    phone_num = Column(String(20), unique=True, nullable=False)
+    email = Column(String(255), unique=True, nullable=False)
+    phone_num = Column(String(20), unique=False, nullable=True)
     gender = Column(String(10))
     date_naissance = Column(Date)
     profession = Column(String(100))
@@ -22,6 +23,11 @@ class User(Base):
     # Authentification et autorisation
     hashed_password = Column(String(255), nullable=False)
     refresh_token = Column(String(500), nullable=True)
+    # Password reset / recovery
+    reset_token_hash = Column(String(64), nullable=True)
+    reset_token_expires_at = Column(DateTime, nullable=True)
+    reset_token_used = Column(Boolean, default=False)
+
     role = Column(String(50), nullable=False)  # client | agent | admin
     is_active = Column(Boolean, default=True)
 
