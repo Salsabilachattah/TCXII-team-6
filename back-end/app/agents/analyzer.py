@@ -7,7 +7,9 @@ import re
 SYSTEM = """You are a support ticket analyzer.
 Return ONLY valid JSON with fields: summary, keywords.
 """
-
+def call_llm(system: str, prompt: str, temperature: float = 0):
+  # Minimal analyzer: disable external LLM and force local fallback
+  return None
 def _fallback_analysis(text: str) -> AnalysisResult:
   clean = re.sub(r"\s+", " ", text).strip()
   summary = clean[:200] if clean else ""

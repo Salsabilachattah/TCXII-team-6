@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List, Literal
+from typing import List, Literal, Optional
 
 class TicketInput(BaseModel):
     ticket_id: str
@@ -12,6 +12,7 @@ class AnalysisResult(BaseModel):
 class RagResult(BaseModel):
     answer: str
     sources: List[str]
+    similarity_score: Optional[float] = 0.0  
 
 class EvaluationResult(BaseModel):
     decision: Literal["APPROVE", "ESCALATE"]

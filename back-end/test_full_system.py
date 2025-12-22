@@ -51,7 +51,7 @@ def test_ticket(ticket_id: str, ticket_content: str):
         
         # Step 3: Evaluate
         print("\n⚖️  STEP 3: Evaluating confidence...")
-        evaluation = evaluate(analysis.summary, rag_result.answer)
+        evaluation = evaluate(analysis.summary, rag_result.answer, analysis.keywords)
         print(f"   Decision: {evaluation.decision}")
         print(f"   Confidence: {evaluation.confidence_score}")
         print(f"   Reason: {evaluation.reason}")
