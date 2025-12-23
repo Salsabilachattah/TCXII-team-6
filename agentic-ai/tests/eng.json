@@ -1,0 +1,210 @@
+{
+  "Team": "TEAM 6",
+  "Answers": [
+    {
+      "id": "Q001",
+      "answer": "Thank you for your request. We understand that you are asking about Doxa. Unfortunately, the provided context does not contain information about what Doxa is. Please contact our support team for more information."
+    },
+    {
+      "id": "Q002",
+      "answer": "Thank you for your request. We understand that you are asking about the price of the Pro plan. The Pro plan costs 11,850 DZD per month. Required action: No further action is required."
+    },
+    {
+      "id": "Q003",
+      "answer": "Thank you for your request. We understand that you are receiving the 'Email not recognized' error. Here are the steps to resolve this issue: 1. Verify your email address, ensuring it matches exactly (including case) and was created with the same method (e.g., Google/Microsoft). 2. Reset your password by clicking 'Forgot Password' on the login page and follow the instructions. 3. Check if your account is activated and verify your email, including spam folders. 4. If your company uses SSO, log in via the SSO portal instead. Required action: Follow the steps above. If the issue persists, contact support@doxa.dz for further assistance."
+    },
+    {
+      "id": "Q004",
+      "answer": "Thank you for your request. We understand that you want to create your first project. To create your first project, follow these steps: 1. Go to www.doxa.dz 2. Click 'Commencer gratuitement' 3. Enter your email and create a password (min 8 characters, 1 uppercase, 1 number) 4. Verify your email (activation link) 5. Log in 6. Create your first workspace (company name, sector). Required action: Follow the steps above to create your first project."
+    },
+    {
+      "id": "Q005",
+      "answer": "Thank you for your request. We understand that you are asking about the major differences between the Simple and Pro plans. The Simple plan is suitable for small teams with basic needs, while the Pro plan offers unlimited projects, advanced integrations, priority support, and more features for growing teams. Required action: Review the plan details on our pricing page for more information."
+    },
+    {
+      "id": "Q006",
+      "answer": "Thank you for your request. We understand that you are asking about Doxa's compliance with Law 25-11 in Algeria. Doxa is fully compliant with Law 25-11, which modernizes data protection regulations in Algeria. Doxa adheres to strict legal frameworks, including the designation of a Data Protection Officer (DPO), maintaining a register of processing activities, automated audit logs, and timely notification of security incidents to the ANPDP. Required action: No further action is required as Doxa is compliant with the specified law."
+    },
+    {
+      "id": "Q007",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez ajouter un membre. Pour inviter un membre, allez dans Paramètres espace → Membres → + Inviter membres. Remplissez le formulaire avec l'email du membre, sélectionnez son rôle (Éditeur, Lecteur, ou Admin), puis cliquez sur Envoyer invitations. Action requise : Suivez ces étapes pour inviter le membre."     
+    },
+    {
+      "id": "Q008",
+      "answer": "Thank you for your request. We understand that you are inquiring about the security of our system. Our system is highly secure with features such as DDoS protection, IDS/IPS, WAF, 24/7 monitoring, and regular security audits. We also employ AES-256 encryption for data at rest and in transit, and we follow strict data isolation policies to prevent unauthorized access. Required action: No further action is required as your question has been addressed."
+    },
+    {
+      "id": "Q009",
+      "answer": "Thank you for your request. We understand that you want to integrate your custom accounting software. You can use our API REST for developers to integrate your custom accounting software. The API documentation is available at api.doxa.dz. Required action: Review the API documentation and contact support if you need further assistance."
+    },
+    {
+      "id": "Q010",
+      "answer": "Thank you for your request. We understand that you are asking about video call functionality in Doxa. Unfortunately, the provided context does not mention any video call features. Required action: Please contact support@doxa.dz for further assistance."
+    },
+    {
+      "id": "Q011",
+      "answer": "Thank you for your request. We understand that you are asking about the winner of the last World Cup. Unfortunately, the provided context does not contain information about the World Cup. Required action: Please contact our support team for assistance with this specific question."
+    },
+    {
+      "id": "Q012",
+      "answer": "Thank you for your request. We understand that you are asking about the weather in Algiers today. Unfortunately, we do not have access to weather information in our current context. Required action: Please contact a weather service or use a weather application for the most accurate and up-to-date information."
+    },
+    {
+      "id": "Q013",
+      "answer": "Thank you for your request. We understand that you want to know how the system manages sprints. The system manages sprints through the Agile/Scrum workflow. You can create a project with the Agile model, configure sprints with specific names and durations, add user stories, start and manage sprints through daily standups, and conclude sprints with retrospectives and metrics. Required action: Follow the steps outlined in the Agile/Scrum workflow to manage sprints effectively."
+    },
+    {
+      "id": "Q014",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître le délai pour notifier l'ANPDP d'un incident de sécurité. Selon le contexte fourni, en cas de détection d'une intrusion, Doxa s'engage à notifier l'ANPDP et les utilisateurs concernés dans un délai de 5 jours. Action requise : Aucune action supplémentaire n'est requise de votre part pour cette information."
+    },
+    {
+      "id": "Q015",
+      "answer": "Thank you for your request. We understand that you are asking about storing credit card numbers in tasks. According to our PCI-DSS compliance, Doxa does not allow storing credit card numbers anywhere in the system. Required action: Ensure you do not store any credit card numbers in tasks and use our secure payment gateway for transactions."
+    },
+    {
+      "id": "Q016",
+      "answer": "Thank you for your request. We understand that you are asking about what happens after the 14-day free trial. Unfortunately, the provided context does not include information about the post-trial period. Required action: Please contact our support team at support@doxa.dz for further assistance."       
+    },
+    {
+      "id": "Q017",
+      "answer": "Thank you for your request. We understand that you want to permanently delete your data. To permanently delete your data, go to 'Paramètres de l’espace' and select 'Supprimer l’espace de travail'. Confirm the deletion via email. Your data will be permanently deleted after 30 days. Required action: Follow the steps to delete your workspace and confirm via email."   
+    },
+    {
+      "id": "Q018",
+      "answer": "Thank you for your request. We understand that you are asking about the API limits for the Pro plan. The Pro plan allows for 1000 requests per hour per API key. Required action: No further action is required as the information has been provided."
+    },
+    {
+      "id": "Q019",
+      "answer": "Thank you for your request. We understand that your mobile app is not syncing. Unfortunately, the provided context does not include information on how to resolve syncing issues with the mobile app. Required action: Please contact support@doxa.dz for further assistance."
+    },
+    {
+      "id": "Q020",
+      "answer": "Thank you for your request. We understand that you are asking about the available roles and their permissions. The roles and permissions are as follows: Owner (full access, can delete space, manage billing), Admin (manage members and settings, but not billing), Editor (create, modify, comment within assigned projects), Reader (read-only access), and Guest (read-only access with optional commenting). Required action: No further action is required."
+    },
+    {
+      "id": "Q021",
+      "answer": "Thank you for your request. We understand that you want to export your reports to PDF. To export your reports to PDF, open the menu « ... » from a table or list view, then click on « Exporter ». Choose the PDF format. Required action: Follow the steps above to export your reports to PDF."
+    },
+    {
+      "id": "Q022",
+      "answer": "Thank you for your request. We understand that you are asking about using Doxa for medical data. Doxa can be used for medical data only under the Enterprise plan with compliance to Algerian health laws (Loi 18-11) and data protection laws (Loi 25-11). This requires signing a Data Processing Agreement (ATD) and implementing enhanced security measures. Required action: Contact our sales team for a custom quote and further details."
+    },
+    {
+      "id": "Q023",
+      "answer": "Thank you for your request. We understand that you want to automate the archiving of completed tasks. You can set up an automation rule to archive tasks that have been completed for a certain period. Required action: Go to Settings → Automatisations → Create a rule with the trigger 'Status = Complète + 30 jours écoulés' and the action 'Archiver tâche'."
+    },
+    {
+      "id": "Q024",
+      "answer": "Thank you for your request. We understand that you are asking about the encryption standards used by Doxa. Doxa employs AES-256 encryption for data at rest and SSL/TLS for data in transit, ensuring high levels of security. Required action: No further action is required."
+    },
+    {
+      "id": "Q025",
+      "answer": "Thank you for your request. We understand that you are inquiring about the cost of the Enterprise plan. The Enterprise plan requires a customized quote. Required action: Please contact sales@doxa.dz for a personalized quote."
+    },
+    {
+      "id": "Q026",
+      "answer": "Thank you for your request. We understand that your 2FA code is being rejected. Here are the possible solutions: 1. Ensure you enter the code within 30 seconds of generation and try again with a new code. 2. Synchronize your phone's clock with the correct time and regenerate the code. 3. Use one of your backup codes if you have them. 4. If your authenticator app is lost or 2FA is broken, contact support@doxa.dz for assistance. Required action: Follow the steps mentioned above to resolve the issue."
+    },
+    
+    {
+      "id": "Q027",
+      "answer": "Thank you for your request. We understand that you are asking if Doxa supports the Tamazight language. Yes, Doxa supports all languages and alphabets, including Tamazight. Required action: None."
+    },
+    {
+      "id": "Q028",
+      "answer": "Thank you for your request. We understand that you want to link a GitHub Pull Request to a task. To do this, ensure the PR description uses the correct format: 'Closes #task-123' or 'Fixes #task-123'. Verify the task ID is correct, check that the GitHub integration is connected, and ensure the repository is authorized. Required action: Follow these steps to link your PR to the task."
+    },
+    {
+      "id": "Q029",
+      "answer": "Ticket escalated to human support."
+    },
+    {
+      "id": "Q030",
+      "answer": "Thank you for your request. We understand that you are asking about responsibility in the event of a data breach. According to the context, Doxa is responsible for the infrastructure and notification to the ANPDP within 5 days. However, you are responsible for who has access to the data and ensuring compliance with usage. Required action: If you need further clarification or have specific concerns, please contact support@doxa.dz."
+    },
+    {
+      "id": "Q031",
+      "answer": "Thank you for your request. We understand that you want to see the history of a specific task. Unfortunately, the provided context does not include information on how to view the history of a task. Required action: Please contact our support team for further assistance."
+    },
+    {
+      "id": "Q032",
+      "answer": "Thank you for your request. We understand that you want to invite 50 people at once. To invite multiple members, go to 'Paramètres de l’espace' → onglet 'Membres', then click on '+ Inviter des membres'. Enter up to 50 email addresses separated by commas, select the appropriate role for each, and click 'Envoyer les invitations'. Required action: Follow the steps above to invite your team members."
+    },
+    {
+      "id": "Q033",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si Doxa fonctionne sans internet. Malheureusement, le contexte fourni ne répond pas à cette question. Action requise : Veuillez contacter le support à support@doxa.dz pour obtenir une réponse précise."
+    },
+    {
+      "id": "Q034",
+      "answer": "Thank you for your request. We understand that you are asking about the data center certifications. The data centers in Algeria are certified with TIER III/IV and ISO 27001. Required action: No further action is required."
+    },
+    {
+      "id": "Q035",
+      "answer": "Thank you for your request. We understand that you are asking about creating 'Image' type custom fields. Based on the provided context, Doxa supports various types of custom fields such as Text, Number, Selection, Multi-selection, Checkbox, Date, and Dropdown. However, there is no mention of an 'Image' type custom field. Required action: Please contact our support team for further assistance on this specific request."
+    },
+    {
+      "id": "Q036",
+      "answer": "Thank you for your request. We understand that you need to configure Slack notifications for a project. To set up Slack notifications in Doxa, follow these steps: 1. Go to Doxa → Settings → Integrations → Slack. 2. Click 'Connect Slack'. 3. Authorize Doxa in Slack. 4. Choose the channels where you want to receive notifications. 5. Configure the notifications (select which events you want to be notified about). 6. Save your settings. After completing these steps, task updates will appear in Slack, and you can create tasks using /doxa commands. Required action: Follow the steps above to configure Slack notifications."
+    },
+    {
+      "id": "Q037",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître la taille maximale d'une pièce jointe. La taille maximale d'un fichier que vous pouvez télécharger est de 50 MB. Si votre fichier est plus grand, vous pouvez le diviser en plusieurs fichiers plus petits. Action requise : Divisez votre fichier si nécessaire et essayez de le télécharger à nouveau."
+    },
+    {
+      "id": "Q038",
+      "answer": "Thank you for your request. We understand that you are experiencing interface lag. To reduce lag, you can filter/archive old tasks to keep only 200-300 visible, remove unused custom columns if you have more than 50, clear your browser cache specifically for Doxa.dz, close unnecessary browser tabs, or use incognito mode for a fresh RAM state. Required action: Try these steps and check if the performance improves."
+    },
+    {
+      "id": "Q039",
+      "answer": "Thank you for your request. We understand that you are asking about paying via CCP. Yes, CCP is an accepted payment method. Required action: Proceed with your payment using CCP."
+    },
+    {
+      "id": "Q040",
+      "answer": "Thank you for your request. We understand that you are asking whether a Data Protection Officer (DPO) is mandatory for your organization. According to the context provided, under the Loi n° 25-11 du 24 juillet 2025, it is obligatory to designate a Délégué à la Protection des Données (DPD) or Data Protection Officer (DPO) who is a qualified professional responsible for ensuring compliance with data protection regulations. Required action: Ensure that your organization designates a qualified DPO to meet legal requirements."
+    },
+    {
+      "id": "Q041",
+      "answer": "Thank you for your request. We understand that you want to duplicate an entire project. To duplicate a project in Doxa, go to the project settings and click on 'Dupliquer le projet'. You can choose to duplicate tasks, comments, and attachments or start with just the structure (columns, statuses, etc.). Required action: Follow the steps mentioned to duplicate your project."
+    },
+    {
+      "id": "Q042",
+      "answer": "Thank you for your request. We understand that you are asking about the difference between 'Archive' and 'Delete'. In Doxa, archiving a project hides it but keeps it conserved, while deleting a project results in permanent removal. Required action: No further action is needed as this information has been provided."
+    },
+    {
+      "id": "Q043",
+      "answer": "Thank you for your request. We understand that you need a PDF invoice. Unfortunately, the provided context does not contain information on how to obtain a PDF invoice. Required action: Please contact our support team at support@doxa.dz for further assistance."
+    },
+    {
+      "id": "Q044",
+      "answer": "Thank you for your request. We understand that you are asking about transferring your data outside of Algeria. According to the context, all data is hosted in Algeria by default, and any transfer outside of Algeria requires prior approval from the ANPDP (Autorité Nationale de Protection des Données Personnelles). The ANPDP verifies the adequate level of protection in the destination country. Required action: Contact sales@doxa.dz for feasibility and further assistance."
+    },
+    {
+      "id": "Q045",
+      "answer": "Thank you for your request. We understand that you want to @mention an entire developer team. To do this, you can use the @role_label feature by typing '@developers' in the comment section. This will notify all members of the developers group. Required action: Type '@developers' in the comment section to mention the entire team."
+    },
+    {
+      "id": "Q046",
+      "answer": "Thank you for your request. We understand that you are asking if you can use Okta with Doxa. The provided context does not specify whether Okta is supported as an integration. Required action: Please contact our support team at support@doxa.dz for further assistance."
+    },
+    {
+      "id": "Q047",
+      "answer": "Thank you for your request. We understand that you are asking about the guaranteed uptime for the Pro plan. The context does not provide specific information about the guaranteed uptime for the Pro plan. Required action: Please contact support@doxa.dz for more details."
+    },
+    {
+      "id": "Q048",
+      "answer": "Thank you for your request. We understand that you accidentally deleted a task and need to restore it. Unfortunately, the provided context does not include information on how to restore a deleted task. Required action: Please contact our support team at support@doxa.dz for further assistance."
+    },
+    {
+      "id": "Q049",
+      "answer": "Thank you for your request. We understand that you are looking for the recipe for Algerian couscous. Unfortunately, the provided context does not include information about recipes. Please contact our support team for further assistance."  
+    },
+    {
+      "id": "Q050",
+      "answer": "Thank you for your request. We understand that you need a summary of the benefits of Doxa for an IT team. Doxa offers several advantages for IT teams, including visible metrics (velocity, completion rate, satisfaction), optimization with fewer meetings and more dashboards, and continuous improvements tely, the provided context does not include information about recipes. Please contact our support team for further assistance."  
+    },
+    {
+      "id": "Q050",
+      "answer": "Thank you for your request. We understand that you need a summary of the benefits of Doxa for an IT team. Doxa offers several advantages for IT teams, including visible metrics (velocity, completion rate, satisfaction), optimization with fewer meetings and more dashboards, and continuous improvements through iterative workflows. Additionally, Doxa provides training for the entire team if needed, valuable data history for insights, and a visible ROI with increased productivity and reduced chaos. Required action: Review the provided context for more detailed information on specific features and benefits."
+    }
+  ]
+}

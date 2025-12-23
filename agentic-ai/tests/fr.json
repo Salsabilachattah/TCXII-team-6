@@ -1,0 +1,205 @@
+{
+  "Team": "TEAM 6",
+  "Answers": [
+    {
+      "id": "Q001",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir ce qu'est Doxa. Doxa est une plateforme de gestion de projets et de collaboration qui offre des fonctionnalités pour les équipes et les entreprises. Elle est accessible via une application web responsive et dispose d'applications natives pour iOS et Android. Action requise : Consultez notre site web ou contactez le support pour plus d'informations."
+    },
+    {
+      "id": "Q002",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître le prix du plan Pro. Le contexte ne fournit pas le prix exact du plan Pro. Pour obtenir cette information, veuillez contacter notre support à l'adresse support@doxa.dz."
+    },
+    {
+      "id": "Q003",
+      "answer": "Merci pour votre demande. Nous comprenons que vous recevez l'erreur 'Email non reconnu'. Voici les solutions possibles : 1. Vérifiez que l'email est correctement saisi, y compris la casse. 2. Réinitialisez votre mot de passe via le lien 'Mot de passe oublié?' sur la page de connexion. 3. Assurez-vous que votre compte est activé et vérifiez votre boîte de réception, y compris les dossiers spam. 4. Si votre entreprise utilise SSO, connectez-vous via le lien SSO fourni. Action requise : Suivez les étapes mentionnées ci-dessus."
+    },
+    {
+      "id": "Q004",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez créer votre premier projet. Pour ce faire, connectez-vous à votre compte Doxa, allez sur la page d'accueil et cliquez sur « + Nouveau Projet ». Entrez le nom du projet et une description, sélectionnez un modèle (Kanban, Agile, Waterfall) ou commencez avec un projet vide, puis cliquez sur « Créer ». Action requise : Suivez ces étapes pour créer votre projet."
+    },
+    {
+      "id": "Q005",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître les différences majeures entre les plans Simple et Pro. Malheureusement, le contexte fourni ne contient pas d'informations spécifiques sur les différences entre les plans Simple et Pro. Pour obtenir des informations détaillées, veuillez contacter notre support à l'adresse support@doxa.dz."
+    },
+    {
+      "id": "Q006",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si Doxa est conforme à la loi 25-11 en Algérie. Oui, Doxa est conforme à la loi 25-11. Doxa respecte strictement les lois algériennes de protection des données, y compris la loi 25-11. Action requise : Aucune action requise."
+    },
+    {
+      "id": "Q007",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez ajouter un membre à votre espace de travail. Pour inviter des membres, rendez-vous dans « Paramètres de l’espace » → onglet « Membres ». Cliquez sur « + Inviter des membres », entrez une ou plusieurs adresses email, sélectionnez le rôle (Propriétaire, Admin, Éditeur, Lecteur, Invité) et cliquez sur « Envoyer les invitations ». Les invités recevront un email avec un lien pour rejoindre l’espace de travail. Action requise : Suivez les étapes décrites ci-dessus pour inviter les membres."
+    },
+    {
+      "id": "Q008",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si le système est sûr. Doxa applique des standards de sécurité élevés conformes aux exigences algériennes, notamment pour la protection des données sensibles. Action requise : Consultez la section 6.1 de la documentation pour plus de détails sur les mesures de sécurité mises en place."
+    },
+    {
+      "id": "Q009",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez intégrer votre logiciel de comptabilité personnalisé. Malheureusement, le contexte fourni ne contient pas d'informations spécifiques sur l'intégration de logiciels de comptabilité. Pour obtenir de l'aide, veuillez contacter notre support technique."
+    },
+    {
+      "id": "Q010",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si Doxa supporte les appels vidéo. Malheureusement, le contexte fourni ne mentionne pas cette fonctionnalité. Action requise : Veuillez contacter le support pour obtenir une réponse précise."
+    },
+    {
+      "id": "Q011",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir qui a gagné la dernière Coupe du Monde. Malheureusement, notre base de connaissances ne contient pas cette information. Pour obtenir cette information, veuillez contacter notre support."
+    },
+    {
+      "id": "Q012",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître la météo à Alger aujourd'hui. Malheureusement, nous ne disposons pas de cette information dans notre base de connaissances. Pour obtenir cette information, veuillez contacter notre support."
+    },
+    {
+      "id": "Q013",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir comment le système gère les sprints. Le système gère les sprints à travers le workflow Agile/Scrum. Vous pouvez créer un projet Agile, configurer des sprints avec des durées spécifiques, ajouter des user stories, démarrer les sprints, suivre les tâches via des daily standups, et terminer les sprints avec des rétrospectives. Action requise : Consultez la section 3.1 du workflow Agile pour plus de détails."
+    },
+    {
+      "id": "Q014",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître le délai pour notifier un incident de sécurité à l'ANPDP. Selon le contexte, tout incident de sécurité doit être signalé dans un délai de 5 jours à l'ANPDP. Action requise : Aucune action supplémentaire n'est requise de votre part."
+    },
+    {
+      "id": "Q015",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si vous pouvez stocker des numéros de carte bancaire dans les tâches. Selon le contexte fourni, il est interdit de stocker des numéros de cartes bancaires ou des données de paiement sensibles dans Doxa. Action requise : Veuillez contacter le support pour toute question supplémentaire."
+    },
+    {
+      "id": "Q016",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir ce qui se passe après 14 jours d'essai gratuit. À l'issue des 14 jours, l'espace de travail devient inactif jusqu'à la souscription d'un plan payant. Action requise : Souscrivez à un plan payant pour continuer à utiliser les services."
+    },
+    {
+      "id": "Q017",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez supprimer définitivement vos données. Selon la politique de Doxa, vous pouvez demander la suppression de vos données via l'option \"Supprimer compte\", et vos données seront effacées dans un délai de 30 jours. Action requise : Accédez à votre compte et utilisez l'option \"Supprimer compte\" pour initier la suppression de vos données."      
+    },
+    {
+      "id": "Q018",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître les limites de l'API pour le plan Pro. Selon le contexte fourni, le plan Pro inclut un accès complet à l'API REST avec une limite de 1000 requêtes par heure. Action requise : Aucune action supplémentaire n'est requise."
+    },
+    {
+      "id": "Q019",
+      "answer": "Merci pour votre demande. Nous comprenons que votre application mobile ne se synchronise pas. Malheureusement, le contexte fourni ne contient pas de solution spécifique à ce problème. Action requise : Veuillez contacter le support technique à l'adresse support@doxa.dz pour obtenir de l'aide."
+    },
+    {
+      "id": "Q020",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître les rôles disponibles et leurs permissions. Les rôles typiques sont : 1 Propriétaire, 1-2 Admins, et le reste Éditeurs. Le Propriétaire gère la facturation et la suppression, les Admins gèrent les paramètres et les membres, et les Éditeurs créent et modifient les tâches. Action requise : Consultez la documentation pour plus de détails sur les permissions spécifiques de chaque rôle."
+    },
+    {
+      "id": "Q021",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez exporter vos rapports en PDF. Pour ce faire, allez dans le menu « ... » de votre rapport, puis cliquez sur « Exporter ». Choisissez ensuite le format PDF. Action requise : Suivez ces étapes pour exporter votre rapport en PDF."
+    },
+    {
+      "id": "Q022",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez utiliser Doxa pour des données médicales. Selon le contexte fourni, il n'est pas recommandé de stocker des données sensibles de santé dans Doxa sans mesures spécifiques de sécurité renforcée. Action requise : Contactez le support Doxa pour des conseils personnalisés sur la conformité et la sécurité des données médicales."
+    },
+    {
+      "id": "Q023",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez automatiser l'archivage des tâches terminées. Vous pouvez créer une règle d'automatisation dans les paramètres de votre projet. Par exemple, vous pouvez configurer une règle comme suit : \"Quand : Statut = 'Complète' + 7 jours écoulés, Alors : Archiver tâche automatiquement\". Action requise : Accédez aux paramètres de votre projet, puis à la section \"Automatisations\" pour créer cette règle."
+    },
+    {
+      "id": "Q024",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si le chiffrement est de bout en bout. Le contexte fourni ne contient pas d'informations spécifiques sur le chiffrement de bout en bout. Action requise : Veuillez contacter le support pour obtenir une réponse précise à votre question."
+    },
+    {
+      "id": "Q025",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître le coût du plan Enterprise. Le plan Enterprise est disponible sur devis personnalisé. Action requise : Contactez notre équipe commerciale pour obtenir un devis."   
+    },
+    {
+      "id": "Q026",
+      "answer": "Merci pour votre demande. Nous comprenons que votre code 2FA est refusé. Voici les solutions possibles : 1. Vérifiez que le code est correct et entrez-le rapidement car il change toutes les 30 secondes. 2. Synchronisez l’heure de votre téléphone si elle est décalée. 3. Utilisez un code de secours si vous en avez. 4. Si vous avez perdu votre téléphone ou votre application d'authentification, contactez le support à l'adresse security@doxa.dz. Action requise : Essayez les solutions mentionnées ou contactez le support si nécessaire."
+    },
+    {
+      "id": "Q027",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si Doxa supporte la langue Tamazight. Doxa supporte toutes les langues et alphabets, y compris le Tamazight. Action requise : Aucune action requise."
+    },
+    {
+      "id": "Q028",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez lier une Pull Request GitHub à une tâche. Pour ce faire, vous devez d'abord connecter votre compte GitHub à Doxa. Allez dans les paramètres, sélectionnez \"GitHub\", puis \"Connecter GitHub\". Autorisez l'application Doxa et sélectionnez les dépôts pertinents. Ensuite, lors de la création d'une Pull Request, référencez la tâche en utilisant la syntaxe \"Closes #task-123\". Action requise : Suivez ces étapes pour lier votre Pull Request à une tâche."
+    },
+    {
+      "id": "Q029",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si vous pouvez obtenir un remboursement si vous n'êtes pas satisfait. Selon notre politique de \"30 jours satisfaction garantie\", vous pouvez bénéficier d'un remboursement intégral si vous n'êtes pas satisfait. Action requise : Contactez support@doxa.dz pour initier le processus de remboursement."
+    },
+    {
+      "id": "Q030",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir qui est responsable en cas de violation de données. Selon la Loi 25-11, l'organisme responsable est l'Autorité Nationale de Protection des Données Personnelles (ANPDP). Action requise : En cas de violation, vous devez déclarer l'incident à l'ANPDP dans les 5 jours."
+    },
+    {
+      "id": "Q031",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez voir l'historique d'une tâche précise. Pour ce faire, ouvrez la tâche concernée, puis dans le menu « ... », cliquez sur « Historique ». Vous y verrez tous les changements effectués, incluant qui a modifié quoi et à quel moment. Action requise : Suivez ces étapes pour accéder à l'historique de la tâche."
+    },
+    {
+      "id": "Q032",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez inviter 50 personnes d'un coup. Pour inviter plusieurs membres, rendez-vous dans « Paramètres de l’espace » → onglet « Membres ». Cliquez sur « + Inviter des membres ». Entrez les adresses email séparées par des virgules, sélectionnez le rôle, puis cliquez sur « Envoyer les invitations ». Action requise : Suivez ces étapes pour inviter vos membres."
+    },
+    {
+      "id": "Q033",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si Doxa fonctionne sans internet. Malheureusement, le contexte fourni ne répond pas à cette question. Action requise : Veuillez contacter le support Doxa pour obtenir une réponse précise. Vous pouvez les joindre par email à support@doxa.dz ou via le chat disponible sur la plateforme."
+    },
+    {
+      "id": "Q034",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître les certifications des data centers. Les centres de données de Doxa sont situés en Algérie et sont certifiés ISO 27001. De plus, ils répondent aux normes TIER III/IV. Action requise : Aucune action requise."
+    },
+    {
+      "id": "Q035",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si vous pouvez créer des champs personnalisés de type 'Image'. Le contexte fourni ne mentionne pas explicitement cette fonctionnalité. Nous ne pouvons donc pas confirmer cette possibilité. Action requise : Veuillez contacter notre support pour obtenir une réponse précise."
+    },
+    {
+      "id": "Q036",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez configurer les notifications Slack pour un projet. Pour configurer les notifications Slack, suivez ces étapes : 1. Dans Doxa, allez dans Paramètres d’intégration → « Slack ». 2. Cliquez « Connecter ». 3. Autorisez Doxa dans Slack. 4. Choisissez les canaux où envoyer les notifications. 5. Configurez les notifications (quels événements ?). 6. Sauvegardez. Action requise : Suivez ces étapes pour configurer les notifications Slack."
+    },
+    {
+      "id": "Q037",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître la taille maximale d'une pièce jointe. La taille maximale d'une pièce jointe est de 2 GB par fichier et 10 GB par tâche. Action requise : Aucune action requise."   
+    },
+    {
+      "id": "Q038",
+      "answer": "Merci pour votre demande. Nous comprenons que vous rencontrez des lenteurs avec l'interface. Voici quelques solutions : 1. Réduisez le nombre de colonnes et de filtres affichés. 2. Réduisez le nombre de tâches par vue en archivant les anciennes. 3. Videz le cache en utilisant Ctrl+Shift+Suppr. 4. Essayez un autre navigateur. 5. Consultez status.doxa.io pour vérifier les pannes. Action requise : Appliquez ces solutions et vérifiez si le problème persiste."
+    },
+    {
+      "id": "Q039",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si vous pouvez payer par CCP. Oui, Doxa accepte les paiements par CCP. Action requise : Aucune action requise."
+    },
+    {
+      "id": "Q040",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si le Délégué à la Protection des Données (DPD) est obligatoire pour votre organisation. Selon le contexte fourni, Doxa est conforme aux réglementations algériennes, notamment la Loi n° 25-11 et la Loi n° 18-07, qui imposent certaines obligations, dont la nomination d'un DPD qualifié. Action requise : Veuillez vérifier si votre organisation est soumise à ces obligations spécifiques en consultant les lois mentionnées ou en contactant l'ANPDP pour plus de détails."
+    },
+    {
+      "id": "Q041",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez dupliquer un projet entier. Vous pouvez dupliquer un projet dans les paramètres du projet en cliquant sur « Dupliquer le projet ». Vous pouvez choisir de dupliquer aussi les tâches, les commentaires et les pièces jointes ou de démarrer avec uniquement la structure (colonnes, statuts, etc.). Action requise : Accédez aux paramètres de votre projet et sélectionnez l'option de duplication."
+    },
+    {
+      "id": "Q042",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître la différence entre 'Archiver' et 'Supprimer'. Archiver un projet le masque mais le conserve, tandis que le supprimer le supprime définitivement. Pour archiver, allez dans les paramètres du projet et cliquez sur « Archiver ce projet ». Pour supprimer, allez dans les paramètres du projet et cliquez sur « Supprimer définitivement » (uniquement pour le propriétaire du projet). Les projets supprimés ne peuvent pas être récupérés. Action requise : Utilisez ces options selon vos besoins."
+    },
+    {
+      "id": "Q043",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez obtenir une facture PDF. Pour télécharger vos factures, allez dans Paramètres → onglet « Facturation » → « Factures » → Téléchargez les PDFs. Chaque facture contient les détails du plan, le montant, la date, et la TVA si applicable. Action requise : Suivez ces étapes pour télécharger votre facture."
+    },
+    {
+      "id": "Q044",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez transférer vos données hors d'Algérie. Selon la loi 25-11, article 45 bis, tout transfert de données hors d'Algérie nécessite une approbation préalable de l'ANPDP. L'ANPDP vérifie que le pays de destination garantit un niveau de protection équivalent. Action requise : Contactez sales@doxa.dz pour la faisabilité et suivez les procédures d'approbation de l'ANPDP."
+    },
+    {
+      "id": "Q045",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez mentionner toute une équipe de développeurs. Vous pouvez utiliser le rôle @role_label pour mentionner tous les membres d'un groupe spécifique, par exemple @developers. Cela enverra une notification à tous les membres de ce groupe. Action requise : Essayez d'utiliser @developers dans un commentaire pour mentionner toute l'équipe."
+    },
+    {
+      "id": "Q046",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez savoir si vous pouvez utiliser Okta avec Doxa. Le contexte fourni ne mentionne pas l'intégration avec Okta. Action requise : Veuillez contacter le support pour obtenir des informations spécifiques sur l'intégration avec Okta."
+    },
+    {
+      "id": "Q047",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître l'uptime garanti pour le plan Pro. Malheureusement, le contexte fourni ne mentionne pas l'uptime garanti. Action requise : Veuillez contacter notre support à l'adresse support@doxa.dz pour obtenir cette information."
+    },
+    {
+      "id": "Q048",
+      "answer": "Merci pour votre demande. Nous comprenons que vous avez supprimé une tâche par erreur. Malheureusement, le contexte fourni ne contient pas d'informations sur la restauration des tâches supprimées. Action requise : Veuillez contacter le support pour obtenir de l'aide."
+    },
+    {
+      "id": "Q049",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez obtenir la recette du couscous algérien. Malheureusement, notre base de connaissances ne contient pas cette information. Pour obtenir cette recette, nous vous recommandons de contacter un service de support culinaire ou de consulter des ressources spécialisées en cuisine algérienne."
+    },
+    {
+      "id": "Q050",
+      "answer": "Merci pour votre demande. Nous comprenons que vous souhaitez connaître les bénéfices de Doxa pour une équipe IT. Malheureusement, le contexte fourni ne contient pas d'informations spécifiques sur les bénéfices de Doxa pour une équipe IT. Pour obtenir cette information, veuillez contacter le support Doxa."
+    }
+  ]
+}
