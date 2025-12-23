@@ -23,3 +23,7 @@ This project contains the **backend** and the **frontend** for an AI ticketing s
   - Responding based on knowledge base
   - Escalating to human support with documented reasons
   - Supports multiple languages
+ 
+### Testing the agent
+- run the server
+- run the test_agent_with_given_format.py script under agentic-ai/tests
