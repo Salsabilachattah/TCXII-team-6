@@ -1,11 +1,19 @@
 from fastapi import FastAPI
 from app.schemas import TicketInput, FinalResponse
 from app.agents.orchestrator import process_ticket
-
+from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI(
     title="Multi-Agent Ticket System",
     description="API for ticket processing pipeline",
     version="1.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # ou [""] en dev
+    allow_credentials=True,
+    allow_methods=["*"],   # IMPORTANT pour OPTIONS
+    allow_headers=["*"],
 )
 
 @app.post("/ticket", response_model=FinalResponse)

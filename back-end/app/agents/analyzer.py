@@ -5,7 +5,7 @@ import json
 import re
 
 SYSTEM = """You are a support ticket analyzer.
-Return only valid JSON with fields: summary, keywords.
+Return only valid JSON with fields: summary, keywords in the same language as the ticket
 """
 def call_llm(system: str, prompt: str, temperature: float = 0):
   # Minimal analyzer: disable external LLM and force local fallback

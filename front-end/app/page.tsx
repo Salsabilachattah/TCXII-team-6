@@ -1,32 +1,33 @@
 "use client"; // ⚠️ indispensable pour les hooks
-// helper to send ticket data to your AI agent API route (e.g. /api/agent)
 
-export async function sendToAgent(type: string, description: string): Promise<string> {
+import React, { useState } from "react";
+
+// helper to send ticket data to your AI agent API
+async function sendToAgent(type: string, description: string): Promise<string> {
   try {
-    const res = await fetch("http://0.0.0.0:8000/ticket", {
-
+    const res = await fetch("http://localhost:8000/ticket", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ type, description }),
+      body: JSON.stringify({
+        ticket_id: crypto.randomUUID(),
+        content: `[${type.toUpperCase()}] ${description}`,
+      }),
     });
 
     if (!res.ok) {
       const text = await res.text();
-      throw new Error(text || "Agent request failed");
+      throw new Error(text);
     }
 
     const data = await res.json();
-    // expect the agent response in data.reply or data.response
-    return (data.reply ?? data.response ?? JSON.stringify(data)) as string;
-  } catch (err) {
-    // swallow/log and return friendly message
-    // console.error(err);
-    return "Sorry, something went wrong contacting the AI agent.";
+    return data.response ?? "No response from agent";
+  } catch {
+    return "Backend error";
   }
 }
-import React, { useState } from "react";
 
-// Composant pour afficher la réponse
+
+// ================= Response Component =================
 type TicketResponseProps = {
   response: string | null;
 };
@@ -42,30 +43,28 @@ const TicketResponse: React.FC<TicketResponseProps> = ({ response }) => {
   );
 };
 
-// Composant formulaire
+// ================= Form Component =================
 const TicketForm: React.FC = () => {
   const [type, setType] = useState<"guide" | "policies" | "faq" | "">("");
-  const [description, setDescription] = useState<string>("");
+  const [description, setDescription] = useState("");
   const [response, setResponse] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setLoading(true);
 
-    const autoResponses: Record<string, string> = {
-      guide: "Please check the user guide section for step-by-step instructions.",
-      policies: "Our policies are available in the security and privacy documentation.",
-      faq: "This question is answered in the FAQ section.",
-    };
+    const agentResponse = await sendToAgent(type, description);
+    setResponse(agentResponse);
 
-    setResponse(autoResponses[type] || "Thank you, we will get back to you.");
+    setLoading(false);
   };
 
   return (
     <div style={{ textAlign: "center", marginTop: 40 }}>
-      {/* Titre hors container et plus grand */}
-      <h1 style={{ fontSize: "2rem", marginBottom: "20px" }}>Ticket Form</h1>
+      {/* Title outside container */}
+      <h1 style={{ fontSize: "2rem", marginBottom: 20 }}>Ticket Form</h1>
 
-      {/* Container principal */}
       <div style={styles.container}>
         <form onSubmit={handleSubmit} style={styles.form}>
           <select
@@ -88,8 +87,8 @@ const TicketForm: React.FC = () => {
             style={styles.textarea}
           />
 
-          <button type="submit" style={styles.button} onClick={() => sendToAgent(type, description)}>
-            Send
+          <button type="submit" style={styles.button} disabled={loading}>
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
 
@@ -99,7 +98,7 @@ const TicketForm: React.FC = () => {
   );
 };
 
-// Styles
+// ================= Styles =================
 const styles: { [key: string]: React.CSSProperties } = {
   container: {
     width: "400px",
@@ -108,8 +107,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     background: "rgba(30,30,80,0.4)",
     backdropFilter: "blur(10px)",
     textAlign: "center",
-    color: "#000",
-    margin: "0 auto", // centré
+    margin: "0 auto",
   },
   form: {
     display: "flex",
@@ -148,7 +146,7 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
 };
 
-// Page principale
+// ================= Page =================
 const Page: React.FC = () => {
   return <TicketForm />;
 };
