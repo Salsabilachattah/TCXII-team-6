@@ -10,7 +10,7 @@ class AnalysisResult(BaseModel):
     keywords: List[str]
 
 class RagResult(BaseModel):
-    answer: str
+    context: str
     sources: List[str]
     similarity_score: Optional[float] = 0.0  
 
@@ -20,5 +20,7 @@ class EvaluationResult(BaseModel):
     reason: str
 
 class FinalResponse(BaseModel):
-    ticket_id : str
+    ticket_id: str
     response: str
+    escalated: bool
+    reason: str

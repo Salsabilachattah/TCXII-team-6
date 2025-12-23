@@ -5,7 +5,7 @@ import json
 import re
 
 SYSTEM = """You are a support ticket analyzer.
-Return ONLY valid JSON with fields: summary, keywords.
+Return only valid JSON with fields: summary, keywords.
 """
 def call_llm(system: str, prompt: str, temperature: float = 0):
   # Minimal analyzer: disable external LLM and force local fallback
@@ -37,8 +37,15 @@ JSON_SCHEMA_EXAMPLE = (
 )
 
 def analyze_ticket(text: str) -> AnalysisResult:
+  """
+  Analyze a support ticket to extract a summary and keywords.
+  Parameters:
+  - text: the content of the support ticket
+  Returns:
+  - AnalysisResult containing the summary and keywords
+  """
   prompt = (
-    "Summarize the ticket and extract keywords.\n\n"
+    "Summarize the ticket in less than a hundred words and extract 5 to 10 keywords.\n"
     "Ticket:\n"
     + (text or "") + "\n\n"
     "JSON format:\n"

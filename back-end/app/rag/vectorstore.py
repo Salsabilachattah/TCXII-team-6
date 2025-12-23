@@ -27,5 +27,5 @@ def get_db():
 
 
 # Retrieve documents with FAISS scores (distance; lower is better)
-def retrieve(query: str, k=4):
+def retrieve(query: str, k=5):
     return get_db().similarity_search_with_score(query, k=k)
