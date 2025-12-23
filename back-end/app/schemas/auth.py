@@ -35,26 +35,22 @@ class TokenResponse(BaseModel):
     access_token: str
     refresh_token: str
     token_type: str = "bearer"
+    expires_in: int | None = None
+    must_change_password: bool | None = False
 
 
 class RefreshTokenRequest(BaseModel):
     refresh_token: str
 
 
-# =========================
-# FORGOT PASSWORD
-# =========================
-
-class ForgotPasswordRequest(BaseModel):
-    email: EmailStr
-
-
-class ResetPasswordRequest(BaseModel):
-    reset_token: str
-    new_password: str
 
 
 class ChangePasswordRequest(BaseModel):
     old_password: str
     new_password: str
+
+
+
+class RegisterResponse(BaseModel):
+    message: str
 

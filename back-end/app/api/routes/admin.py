@@ -1,12 +1,2 @@
-from fastapi import APIRouter
-
-router = APIRouter(
-    prefix="/admin",
-    tags=["Admin"]
-)
-
-# Routes admin à implémenter plus tard
-# Exemples :
-# - statistiques
-# - gestion agents
-# - supervision tickets
+# Shim: re-export the router from the new admin package
+from app.api.admin.router import router

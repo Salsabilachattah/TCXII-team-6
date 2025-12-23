@@ -30,3 +30,25 @@ class UserUpdate(BaseModel):
     gender: Optional[str] = Field(None, max_length=10)
     profession: Optional[str] = Field(None, max_length=100)
     date_naissance: Optional[date] = None
+
+
+class AgentCreate(BaseModel):
+    first_name: str
+    last_name: str
+    email: EmailStr
+    phone_num: Optional[str] = None
+    date_naissance: Optional[date] = None
+    gender: Optional[str] = None
+    profession: Optional[str] = None
+
+
+class AgentResponse(BaseModel):
+    id: int
+    email: EmailStr
+    first_name: str
+    last_name: str
+    role: str
+    is_active: bool
+
+    class Config:
+        from_attributes = True

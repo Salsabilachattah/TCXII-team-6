@@ -22,17 +22,17 @@ class TicketCreate(BaseModel):
 
 
 # ========== TICKET BASE ==========
-class TicketBase(BaseModel):
-    """Schéma de base pour les tickets"""
-    title: str = Field(..., min_length=5, max_length=200, description="Sujet du ticket")
-    description: str = Field(..., min_length=10, description="Description complète")
-    category: str = Field(default="general")
+# class TicketBase(BaseModel):
+#     """Schéma de base pour les tickets"""
+#     title: str = Field(..., min_length=5, max_length=200, description="Sujet du ticket")
+#     description: str = Field(..., min_length=10, description="Description complète")
+#     category: str = Field(default="general")
     
-    @validator('category')
-    def validate_category(cls, v):
-        if v not in TICKET_CATEGORIES:
-            raise ValueError(f"Catégorie invalide. Options: {', '.join(TICKET_CATEGORIES)}")
-        return v
+#     @validator('category')
+#     def validate_category(cls, v):
+#         if v not in TICKET_CATEGORIES:
+#             raise ValueError(f"Catégorie invalide. Options: {', '.join(TICKET_CATEGORIES)}")
+#         return v
 
 
 # ========== TICKET RESPONSE (VIEW) ==========
@@ -46,6 +46,7 @@ class TicketResponse(BaseModel):
     escalated: bool = False
     processed: bool = False
     created_at: datetime
+    reference: Optional[str] = None
     
     class Config:
         from_attributes = True
@@ -67,6 +68,7 @@ class TicketDetail(BaseModel):
     feedback_satisfied: Optional[bool] = None
     feedback_reason: Optional[str] = None
     created_at: datetime
+    reference: Optional[str] = None
 
     class Config:
         from_attributes = True
@@ -77,6 +79,7 @@ class TicketListItem(BaseModel):
     """Item dans une liste paginée de tickets"""
     id: int
     title: str
+    reference: Optional[str] = None
     category: str
     escalated: bool = False
     processed: bool = False

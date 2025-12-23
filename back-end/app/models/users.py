@@ -23,13 +23,12 @@ class User(Base):
     # Authentification et autorisation
     hashed_password = Column(String(255), nullable=False)
     refresh_token = Column(String(500), nullable=True)
-    # Password reset / recovery
-    reset_token_hash = Column(String(64), nullable=True)
-    reset_token_expires_at = Column(DateTime, nullable=True)
-    reset_token_used = Column(Boolean, default=False)
 
     role = Column(String(50), nullable=False)  # client | agent | admin
     is_active = Column(Boolean, default=True)
+
+    # Force agent to change password on first login
+    must_change_password = Column(Boolean, default=False)
 
     # Statistiques
     nbr_of_tickets = Column(Integer, default=0)

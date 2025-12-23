@@ -23,7 +23,8 @@ class Ticket(Base):
     escalated = Column(Boolean, default=False)
     escalated_at = Column(DateTime, nullable=True)
     processed = Column(Boolean, default=False)
-    category = Column(String(100), nullable=False)  # ✅ AJOUT ICI
+    category = Column(String(100), nullable=False)  
+    reference = Column(String(50), unique=True, nullable=True, index=True)
 
     # Réponse
     response = Column(Text, nullable=True)
