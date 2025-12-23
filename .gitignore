@@ -68,6 +68,9 @@ docker-compose.*.yml
 .cache/
 .pnpm-store/
 
-# backend
+# backend and agentic-ai env files
 back-end/.env
-back-end/__pycache__/
+agentic-ai/.env
+
+# Ignore __pycache__ folders in any subdirectory
+**/__pycache__/
